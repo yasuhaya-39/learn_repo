@@ -1,0 +1,16 @@
+table, p ,select{
+	font-size: 14px;
+}
+
+.search_menu {
+	background-color: #dddddd;
+	width: 300px;
+	border-radius: 2px;
+	border-style: solid;
+	border-width: 1px;
+	padding: 6px;
+}
+
+.search_div {
+	display: flex;
+}

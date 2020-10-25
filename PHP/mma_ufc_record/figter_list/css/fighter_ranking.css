@@ -1,0 +1,11 @@
+.ranking_div {
+	display: flex;
+}
+
+.ranking_p {
+	display: block;
+}
+
+table {
+	font-size: 14px;
+}
