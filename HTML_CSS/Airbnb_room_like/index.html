@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ja" id = "html_tag">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>模写コーディングです</title>
+    <link rel="icon" href="img/tmfav90003.ico">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Fomtawesome使用 -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="css/styles_common.css">
+
+    <link rel="stylesheet" href="css/styles_menu.css">
+    <link rel="stylesheet" href="css/styles_section0_common.css">
+    <link rel="stylesheet" href="css/styles_section0_min_1111.css" media="screen and (min-width: 1111px)">
+    <link rel="stylesheet" href="css/styles_section0_max_1110.css" media="screen and (max-width: 1110px) and (min-width: 727px)">
+    <link rel="stylesheet" href="css/styles_section0_max_726.css" media="screen and (max-width: 726px)">
+
+    <link rel="stylesheet" href="css/styles_section1_common.css">
+    <link rel="stylesheet" href="css/styles_section1_min_1111.css" media="screen and (min-width: 1111px)">
+    <link rel="stylesheet" href="css/styles_section1_max_1110.css" media="screen and (max-width: 1110px) and (min-width: 727px)">
+    <link rel="stylesheet" href="css/styles_section1_max_726.css" media="screen and (max-width: 726px)">
+
+    <link rel="stylesheet" href="css/styles_footer_common.css">
+    <link rel="stylesheet" href="css/styles_footer_min_1111.css" media="screen and (min-width: 1111px)">
+    <link rel="stylesheet" href="css/styles_footer_max_1110.css" media="screen and (max-width: 1110px) and (min-width: 727px)">
+    <link rel="stylesheet" href="css/styles_footer_max_726.css" media="screen and (max-width: 726px)">
+
+  </head>
+  <body id = "body_tag">
+    <div class="custom_menu_area">
+      <nav class = "navbar navbar-expand navbar-light custom_menu_style">
+        <a href="" class = "navbar-brand">Logo</a>
+        <ul class = "navbar-nav">
+          <li class = "nav-item ml-3 font-weight-bold"><a href="" class = "nav-link text-info disabled">基本情報</a></li>
+          <li class = "nav-item ml-3 font-weight-bold"><a href="" class = "nav-link text-dark">準備</a></li>
+          <li class = "nav-item ml-3 font-weight-bold"><a href="" class = "nav-link text-dark">安全対策</a></li>
+          <li class = "nav-item ml-3 font-weight-bold"><a href="" class = "nav-link text-dark">マネープラン</a></li>
+        </ul>
+      </nav>
+      <div class="custom_menu_div_style">
+        <p class = "mr-3 small">予想月収</p>
+        <i class="far fa-question-circle mr-3 mt-2"></i>
+        <p class = "mr-3 font-weight-bold">¥</p>
+        <button type="button" class="btn btn-danger font-weight-bold mr-2">はじめる</button>
+      </div>
+    </div>
+    <hr  class = "active_menu_bar">
+    <div class="room_img">
+      <!-- ロゴクリックのメニュー -->
+      <div class = "logo_menu">
+        <p class = "logo_menu_logo">Logo<i class="fas fa-angle-down ml-2 logo_menu_icon"></i></p>
+        <div class = "logo_menu_list w-100 disable">
+          <br>
+          <p class = "text-info">基本情報</p>
+          <hr>
+          <a class = "text-dark" href="#">準備</a><br>
+          <br>
+          <a class = "text-dark" href="#">安全対策</a><br>
+          <br>
+          <a class = "text-dark" href="#">マネープラン</a><br>
+        </div>
+      </div>
+    </div>
+
+    <!-- ロゴクリックのメニュー -->
+
+    <h1 class = "ml-3 mt-3 font-weight-bold custom_text_0">空き部屋で世界をつなごう</h1>
+    <div class="custom_wrapper_calc_from">
+      <div class="custom_calc_from rounded">
+        <h1 class = "ml-3 mt-3 font-weight-bold custom_text_1">空き部屋で世界をつなごう</h1>
+        <p class = "ml-3 mt-3 font-weight-bold">どれくらいの収入が見込めるかチェック</p>
+        <input type="text" placeholder="東京" class = "mb-2 ml-3 pl-2 custom_location_input rounded"> <br>
+        <div class="custom_select_area">
+          <select class="pl-1 mb-2 rounded custom_use_input">
+            <option value="kashikiri">まるまる貸切</option>
+            <option value="koshitsu">個室</option>
+            <option value="share_room">シェアルーム</option>
+          </select>
+          <select class="pl-1 custom_number_input rounded">
+            <option value="guest_1">ゲスト1人</option>
+            <option value="guest_2">ゲスト2人</option>
+            <option value="guest_3">ゲスト3人</option>
+            <option value="guest_4">ゲスト4人</option>
+            <option value="guest_5">ゲスト5人</option>
+            <option value="guest_6">ゲスト6人</option>
+            <option value="guest_7">ゲスト7人</option>
+            <option value="guest_8">ゲスト8人</option>
+            <option value="guest_9">ゲスト9人</option>
+            <option value="guest_10">ゲスト10人</option>
+            <option value="guest_11">ゲスト11人</option>
+            <option value="guest_12">ゲスト12人</option>
+            <option value="guest_13">ゲスト13人</option>
+            <option value="guest_14">ゲスト14人</option>
+            <option value="guest_15">ゲスト15人</option>
+            <option value="guest_16">ゲスト16人</option>
+          </select>
+        </div>
+        <h3 class = "ml-3 mt-3 font-weight-bold">¥</h3>
+        <p class = "mt-3 ml-3 small">月あたり <i class="far fa-question-circle d-inline"></i></p>
+        <button type="button" class="btn btn-danger font-weight-bold mr-2 custom_start_btn">はじめる</button>
+      </div>
+    </div>
+
+    <div class="Feature_area_0">
+      <div>
+        <p class="Feature_area_text_head">なぜAirbnbでホスト？</p>
+        <p><span>どんなお家やお部屋でも、Airbnbなら簡単かつ安全にシェアして、</span><!--
+        --><span>世界中の旅好きな仲間とつながれます。予約可能日から料金、ハウ</span><!--
+        --><span>スルール、ゲストとの交流頻度まで、すべて自分で決めることができます。</span></p>
+      </div>
+      <div>
+        <p class="Feature_area_text_head">困ったときも安心</p>
+        <p><span>万一に備えるUS$1,000,000の財物補償、US$1,000,000の賠償責任保険</span><!--
+        --><span>が全予約に自動付帯。ホストのみなさまと建物・家財の安全をお守り</span><!--
+        --><span>するため全力で取り組んでいます。</span></p>
+      </div>
+    </div>
+    <hr class = "custom_hr">
+    <div class="Feature_area_1">
+      <p class = "Feature_area_1_text_hear_0 font-weight-bold">3ステップで簡単ホスティング</p>
+      <div class="Feature_area_1_row">
+        <div class="Feature_area_1_col">
+          <div class="Feature_area_1_number_icon mb-3">1</div>
+          <h4 class = "font-weight-bold mb-3">無料でお部屋を掲載</h4>
+          <p>共有のリビングルームから別荘に至るまで、どんなスペースでも登録料なしで共有しましょう。</p>
+        </div>
+        <div class="Feature_area_1_col">
+          <div class="Feature_area_1_number_icon mb-3">2</div>
+          <h4 class = "font-weight-bold mb-3">ホスティング方法を設定</h4>
+          <p>ご希望のスケジュール、料金、ゲストの要件を選びます。設定の際にはヒントも表示されます。</p>
+        </div>
+        <div class="Feature_area_1_col">
+          <div class="Feature_area_1_number_icon mb-3">3</div>
+          <h4 class = "font-weight-bold mb-3">はじめてのゲストをもてなそう</h4>
+          <p>リスティングが掲載され次第、条件にかなったゲストから連絡を受けとることができます。ゲストの宿泊前にご質問があればメッセージを送信できます。</p>
+          <a class = "text-info" href="#">ホスティングの始め方を学ぶ</a>
+        </div>
+      </div>
+    </div>
+    <div class="Feature_area_2">
+      <div class="Feature_area_2_comment_area">
+        <p class = "display-2 Feature_area_2_comment_1">“</p>
+        <p class = "custom_font_30px Feature_area_2_adj_posi">「ホスト保証」があったからAirbnb参加を決めたといっても過言でないほどで、被害やトラブルがあったときに頼れるサポートがあるのは本当にありがたいですね。</p>
+        <p class = "Feature_area_2_adj_posi text-black-50">Dennisさんはロンドンのホスト。自由度の高さに魅力を感じています</p>
+        <div class="Feature_area_2_adj_posi btn_host_chk text-center rounded font-weight-bold">ホスト実践例をチェック</div>
+      </div>
+      <img  class = "Feature_area_2_img" src="img/lion-cub-2886432_640.jpg">
+    </div>
+    <hr class = "custom_hr">
+    <div class="Feature_area_3">
+      <p class ="Feature_area_3_text_hear_0 font-weight-bold">万一の時も安心です</p>
+      <br>
+      <div class="Feature_area_3_row">
+        <div class="Feature_area_3_col mb-4">
+          <p><span>大切なお家にお迎えする相手選びは、信頼第一で進めたいですよね。 その思いに応えるため、Airbnbでは宿泊者に求める厳格な要件をホスト自身の手で設定し、</<span>>
+          <span>滞在前にお互い交流できるシステムを採用しています。 万一のトラブルのときには、Airbnbが全力でサポートします。 建物・家財の被害は「ホスト保証」、</span>
+          <span>賠償責任は「ホスト補償保険」でカバー。ホストのみなさまのあらゆるシチュエーションに対処しています</span></p>
+          <a href="#" class = "text-info">ホストをお守りするしくみを見る</a>
+        </div>
+        <div class="Feature_area_3_col">
+          <p><i class="fas fa-check mr-2 text-info"></i>予約前に政府発行の身分証明書を求める権限</p>
+          <p><i class="fas fa-check mr-2 text-info"></i>ハウスルールに同意しないと泊まれない</p>
+          <p><i class="fas fa-check mr-2 text-info"></i>過去の宿泊のレビューもばっちり読める</p>
+          <p><i class="fas fa-check mr-2 text-info"></i>財物損害は¥100,000,000まで無料で補償</p>
+          <p><i class="fas fa-check mr-2 text-info"></i>$1,000,000の賠償責任保険が無料で付帯</p>
+          <p><i class="fas fa-check mr-2 text-info"></i>24時間365日対応グローバルカスタマーサポート</p>
+        </div>
+      </div>
+      <div class="Feature_area_3_div">
+        <img  class = "Feature_area_3_img" src="img/adult-2449725_1920.jpg">
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <hr class = "custom_hr">
+    <div class="Feature_area_4">
+      <p class = "Feature_area_4_text_hear_0 font-weight-bold">シンプルな決済</p>
+      <br>
+      <div class="Feature_area_4_row">
+        <div class="Feature_area_4_col">
+          <h4 class = "font-weight-bold mb-3">料金設定は完全に自由</h4>
+          <p>いつでも好きなように価格設定できます。お手伝いが必要ですか？お住まいの地域の需要に合わせるためのツールがあります。</p>
+        </div>
+        <div class="Feature_area_4_col">
+          <h4 class = "font-weight-bold mb-3">手数料が安い</h4>
+          <p>登録に費用は一切かかりません。Airbnbは通常、予約ごとに業界で最低の均一3％をサービス料としていただいております。</p>
+        </div>
+        <div class="Feature_area_4_col">
+          <h4 class = "font-weight-bold mb-3">迅速な支払い</h4>
+          <p>ゲストのチェックイン後に、Paypal、直接振り込み、またはその他の利用可能な方法で受取金を送金できます。</p>
+          <a class = "text-info" href="#">Airbnb収入を得るまでの流れを見る</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="Feature_area_5">
+      <img  class = "Feature_area_5_img" src="img/madrid-3021998_1280.jpg">
+      <div class="Feature_area_5_comment_area">
+        <p class = "display-2 Feature_area_5_comment_1">“</p>
+        <p class = "custom_font_30px Feature_area_5_adj_posi">ホスト収入でキッチンリフォーム。お家をいろいろアップグレードしました。</p>
+        <p class = "Feature_area_5_adj_posi text-black-50">Tessaさんはロンドン在住。ホストになって世界が（懐も）広がりました</p>
+        <div class="Feature_area_5_adj_posi btn_host_chk text-center rounded font-weight-bold">ホスト実践例をチェック</div>
+      </div>
+    </div>
+    <br>
+    <hr class = "custom_hr">
+
+    <div class="Feature_area_6">
+      <p class = "Feature_area_6_text_hear_0 font-weight-bold mb-5">夢を共有する仲間が世界中に</p>
+      <div class="Feature_area_6_row">
+        <div class="Feature_area_6_col">
+          <p class = "Feature_area_6_font mb-3">290万</p>
+          <p>Airbnbのホスト</p>
+        </div>
+        <div class="Feature_area_6_col">
+          <p class = "Feature_area_6_font mb-3">80万</p>
+          <p>Airbnbにおける毎晩の平均宿泊数</p>
+        </div>
+        <div class="Feature_area_6_col">
+          <p class = "Feature_area_6_font mb-3">14,000</p>
+          <p>月あたりの新規登録ホスト数</p>
+        </div>
+      </div>
+    </div>
+    <br>
+    <hr class = "custom_hr">
+    <div class="Feature_area_7">
+      <p class = "Feature_area_7_text_hear_0 font-weight-bold">Airbnbについて</p>
+      <div class="Feature_area_7_text_area">
+        <div>
+          <p class="Feature_area_7_text_head_1">Airbnbとは?</p>
+          <p><span>Airbnbは世界中の宿泊先や体験と人々をつなぎます。 ホストたちが原動力となるコミュニティが、</span>
+            <span>地元のように旅するユニークな機会をゲストに提供しています。</span></p>
+        </div>
+        <div>
+          <p class="Feature_area_7_text_head_1">ホスティングとは？</p>
+          <p><span>空いているお部屋やお家、得意分野があるなら、世界中の仲間とシェアして暮らしをステップアップできます。</span>
+            <span>掲載できるのはお部屋や体験です。掛け持ちもOK。 無理のないペースでできます。</span></p>
+            <a href="#" class = "text-info">体験ホスティングの詳細はこちら</a>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <hr class = "custom_hr">
+
+    <div class="Feature_area_8">
+      <p class = "Feature_area_8_text_hear_0 font-weight-bold">みなさまの質問にお答えします</p>
+      <div class="Feature_area_8_text_area_row">
+        <div class = "Feature_area_8_text_area_col">
+          <div class="Feature_area_8_text_area_qa mb-4"><a href="#" class = "text-info">Airbnbホストになれるのはどんな人？</a></div>
+          <div class="Feature_area_8_text_area_qa mb-4"><a href="#" class = "text-info">予約前にゲストに求められる要件は？</a></div>
+          <div class="Feature_area_8_text_area_qa mb-4"><a href="#" class = "text-info">お部屋を掲載するには、いくらかかるの？</a></div>
+        </div>
+        <div class = "Feature_area_8_text_area_col">
+          <div class="Feature_area_8_text_area_qa mb-4"><a href="#" class = "text-info">家財破損があった場合、どのような補償がありますか？</a></div>
+          <div class="Feature_area_8_text_area_qa mb-4"><a href="#" class = "text-info">リスティングの料金はどうやって決めたらいいの？</a></div>
+          <div class="Feature_area_8_text_area_qa mb-4"><a href="#" class = "text-info">Airbnbはお部屋の料金の設定をサポートしてくれる？</a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="Feature_area_9">
+      <p class = "Feature_area_9_text_hear_0 font-weight-bold">ホスティングについてもっと詳しく</p>
+      <div class="Feature_area_9_area_1">
+        <div class="Feature_area_9_area_1_2 rounded">
+          <div class="Feature_area_9_area_1_img_area rounded">
+            <img src="img/rainbow-1467988_1280.jpg" class = "Feature_area_9_img">
+          </div>
+          <div class="Feature_area_9_area_1_text_area">
+            <p><span class = "font-weight-bold">準備</span><br>
+              <span>ホスティングの始め方</span><br>
+              <span class = "text-info Feature_area_9_area_1_text_1">もっと詳しく</span></p>
+          </div>
+        </div>
+        <div class="Feature_area_9_area_1_2 rounded rounded">
+          <div class="Feature_area_9_area_1_img_area rounded">
+            <img src="img/sky-2799118_1280.jpg" class = "Feature_area_9_img">
+          </div>
+          <div class="Feature_area_9_area_1_text_area">
+            <p><span class = "font-weight-bold">安全対策</span><br>
+              <span>ホストを守るAirbnbのしくみ</span><br>
+              <span class = "text-info Feature_area_9_area_1_text_1">もっと詳しく</span></p>
+          </div>
+        </div>
+        <div class="Feature_area_9_area_1_2 rounded rounded">
+          <div class="Feature_area_9_area_1_img_area rounded">
+            <img src="img/tuscany-1707192_1280.jpg" class = "Feature_area_9_img">
+          </div>
+          <div class="Feature_area_9_area_1_text_area">
+            <p><span class = "font-weight-bold">マネープラン</span><br>
+              <span>Airbnbで収入源を増やす方法</span><br>
+              <span class = "text-info Feature_area_9_area_1_text_1">もっと詳しく</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="Feature_area_10">
+      <div class="Feature_area_10_div_1">
+        <div class="Feature_area_10_div_1_1">
+          <img src="img/dumbo-1581304_1280.jpg" alt="">
+        </div>
+        <div class="Feature_area_10_div_2_1">
+          <div class="Feature_area_10_div_2_1_1">
+            <p class = "Feature_area_10_text font-weight-bold text-light">収入を増やしたい？</p>
+            <div class="Feature_area_10_btn rounded font-weight-bold">リスティングを作成</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <div class = "Footer_area_1">
+      <div class="Footer_area_1_menu font-weight-bold">
+        <p>Airbnb</p>
+        <a href="" class = "text-secondary">採用情報</a><br>
+        <a href="" class = "text-secondary">プレス</a><br>
+        <a href="" class = "text-secondary">ポリシー</a><br>
+        <a href="" class = "text-secondary">ヘルプ</a><br>
+        <a href="" class = "text-secondary">ダイバーシティ&ビロンギング</a><br>
+        <a href="" class = "text-secondary">企業情報</a><br>
+      </div>
+      <div class="Footer_area_1_menu font-weight-bold">
+        <p>スタッフおすすめ</p>
+        <a href="" class = "text-secondary">信頼&安全</a><br>
+        <a href="" class = "text-secondary">お友達紹介クーポン</a><br>
+        <a href="" class = "text-secondary">Airbnb Citizen</a><br>
+        <a href="" class = "text-secondary">出張</a><br>
+        <a href="" class = "text-secondary">ガイドブック</a><br>
+        <a href="" class = "text-secondary">Airbnbmag</a><br>
+        <a href="" class = "text-secondary">イベント</a><span class = "new_arrivals"> 新着 </span><br>
+      </div>
+
+      <div class="Footer_area_1_menu font-weight-bold">
+        <p>ホスティング</p>
+        <a href="" class = "text-secondary">ホストになる理由</a><br>
+        <a href="" class = "text-secondary">おもてなしの心</a><br>
+        <a href="" class = "text-secondary">ホストの責任</a><br>
+        <a href="" class = "text-secondary">コミュニティセンター</a><br>
+        <a href="" class = "text-secondary">体験を掲載</a><div class = "new_arrivals"> 新着 </div><br>
+        <a href="" class = "text-secondary">オープンホーム</a><div class = "new_arrivals"> 新着 </div><br>
+      </div>
+
+      <div class="Footer_area_1_menu font-weight-bold">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter ml-2"></i>
+        <i class="fab fa-instagram ml-2"></i>
+        <p></p>
+        <a href="" class = "text-secondary">利用規約</a><br>
+        <a href="" class = "text-secondary">プライバシー</a><br>
+        <a href="" class = "text-secondary">サイトマップ</a>
+      </div>
+    </div>
+
+    <hr class = "menu_2_br" width = "95%">
+
+    <div class = "Footer_area_2">
+      <div class="footer_icon">
+        <i class="fab fa-angellist"></i>
+      </div>
+      <div class="Footer_area_2_msg">
+        <a href="" class = "text-secondary">コーヒー飲み過ぎで眠れないぷー<br>(01)第S0001号(2018年6月15日-2023年6月14日)</a>
+        <p>© mokamoka_fuguo, Inc.</p>
+      </div>
+    </div>
+
+    <!-- JavaScript読み込み -->
+    <script src="js/Airbnb_room_like.js" charset="utf-8"></script>
+  </body>
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,40 @@
+.custom_font_30px {
+	font-size: 30px;
+}
+
+/*** 矢印のカスタマイズ ***/
+/* IEのための処理 */
+select::-ms-expand {
+  display: none;
+}
+
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	/* padding: 7px 30px 7px 10px; */
+	background-image: url(../img/arrow.png);
+	background-repeat: no-repeat;
+	background-size: 16px 16px;
+	background-position: right 10px center;
+}
+
+.disable {
+	display: none;
+}
+
+.enable {
+	display: inline-block;
+}
+
+.height_max {
+	height: 100%;
+}
+
+.overflow_hidden {
+	overflow: hidden;
+}
+
+.rotate_180 {
+	transform: rotate(180deg);
+}

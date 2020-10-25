@@ -1,0 +1,29 @@
+.Footer_area_1 {
+	display: flex;
+	justify-content: space-between;
+	width: 1050px;
+}
+
+.Footer_area_1_menu {
+	width: 220px;
+	font-size: 14px;
+}
+
+.new_arrivals {
+	display: inline-block;
+  background-color: #006A70;
+  font-size: 13px;
+  width: 50px;
+  height: 18px;
+  color: white;
+  border-radius: 2px;
+  text-align: center;
+  margin-left: 4px;
+	line-height: 18px;
+}
+
+.Footer_area_2 {
+	position: relative;
+	width: 1050px;
+	margin: 0 auto 0;
+}

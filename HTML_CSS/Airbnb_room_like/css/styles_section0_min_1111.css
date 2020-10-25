@@ -1,0 +1,40 @@
+.room_img {
+  height: 600px;
+}
+
+.logo_menu {
+  display: none;
+}
+
+.custom_calc_from {
+  position: absolute;
+  background-color: white;
+  width: 450px;
+  height: 370px;
+  left: calc(100% - 500px);
+}
+
+.custom_wrapper_calc_from {
+  position:relative;
+  top:-450px;
+}
+
+.custom_text_0 {
+  display: none;
+}
+
+.custom_select_area {
+  margin-left: 17px;
+}
+
+.custom_start_btn {
+  position: relative;
+  top:-60px;
+  left:270px;
+  width: 150px;
+}
+
+.custom_number_input {
+  margin-left: 15px;
+  width: 180px;
+}

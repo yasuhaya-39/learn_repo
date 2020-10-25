@@ -1,0 +1,44 @@
+@media screen and ( min-width:1111px )
+{
+  .custom_menu_area {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* 選択されているメニューの下線表示 */
+  .active_menu_bar {
+    width: 63px;
+    height: 0px;
+    border-top: 2px solid rgb(23,162,184);
+    margin-left: 102px;
+    text-align: left;
+    margin-bottom: 1px;
+  }
+}
+
+@media screen and ( max-width:1110px )
+{
+  .custom_menu_area {
+    display: none;
+  }
+
+  .active_menu_bar {
+    display: none;
+  }
+}
+
+.custom_menu_style {
+  width: 600px;
+  /* for debug */
+  /* background-color: gray; */
+  position: relative;
+}
+
+.custom_menu_div_style {
+  display: flex;
+  /* for debug */
+  /* background-color: pink;  */
+  position: relative;
+  top:10px;
+  height: 40px;
+  line-height: 40px;
+}

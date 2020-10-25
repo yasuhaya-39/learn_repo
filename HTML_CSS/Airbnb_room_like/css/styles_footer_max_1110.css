@@ -1,0 +1,14 @@
+.Footer_area_1 {
+	display: flex;
+	justify-content: space-between;
+	width: 95%;
+}
+
+.Footer_area_1_menu {
+	width: 20%;
+	font-size: 14px;
+}
+
+.Footer_area_2 {
+	width: 95%;
+}

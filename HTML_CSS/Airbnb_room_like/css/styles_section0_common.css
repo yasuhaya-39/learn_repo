@@ -1,0 +1,75 @@
+.room_img {
+  position: relative;
+  background-image: url(../img/leave-room-825317_1920.jpg);
+  background-size: cover;
+  width: 100%;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo_menu {
+  position: relative;
+  font-size: 20px;
+  top:50px;
+  left: 50px;
+  /* for debug */
+  /* background-color: gray; */
+}
+
+.logo_menu_logo {
+  color: white;
+  user-select: none;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+}
+
+.logo_menu_icon {
+  display: inline-block;
+  position: relative;
+  top:5px;
+}
+
+.logo_menu_logo_black {
+  color: black;
+}
+
+/* custom_calc_fromの位置を調整するためのdiv */
+.custom_wrapper_calc_from {
+  width: 100%;
+  max-width: 1600px;
+  /* background-color: pink;/* /* for debug */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.custom_text_0 {
+  color: white;
+}
+
+.custom_select_area {
+  /* none */
+}
+
+.custom_start_btn {
+    opacity: 0.9;
+    height: 50px;
+}
+
+.custom_location_input {
+  height: 40px;
+  border-style: ridge;
+  width: 400px;
+}
+
+.custom_use_input {
+  height: 40px;
+  width: 200px;
+  border-style: ridge;
+}
+
+.custom_number_input {
+  height: 40px;
+  border-style: ridge;
+}

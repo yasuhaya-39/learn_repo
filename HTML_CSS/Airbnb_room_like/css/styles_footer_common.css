@@ -1,0 +1,34 @@
+.Footer_area_1 {
+	margin: 0 auto 0;
+}
+
+.Footer_area_1_menu {
+	font-size: 14px;
+}
+
+.new_arrivals {
+	display: inline-block;
+  background-color: #006A70;
+  font-size: 13px;
+  width: 50px;
+  height: 18px;
+  color: white;
+  border-radius: 2px;
+  text-align: center;
+  margin-left: 4px;
+	line-height: 18px;
+}
+
+.Footer_area_2 {
+	position: relative;
+	margin: 0 auto 0;
+}
+
+.footer_icon {
+	top:-20px;
+	position: relative;
+}
+
+.footer_icon, .Footer_area_2_msg{
+	display: inline-block;
+}

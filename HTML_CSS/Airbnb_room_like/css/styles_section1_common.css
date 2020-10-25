@@ -1,0 +1,282 @@
+/**********************/
+/*** Feature_area_0 ***/
+/**********************/
+.Feature_area_0 {
+	/* for debug */
+	/* background-color: pink; */
+	margin: 50px auto 50px;
+}
+
+.Feature_area_0 div {
+	/* for debug */
+	/* background-color: pink; */
+}
+
+.Feature_area_0 .Feature_area_text_head {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.custom_hr {
+	width: 80px;
+  border-top: 2px solid gray;
+}
+
+/**********************/
+/*** Feature_area_1 ***/
+/**********************/
+.Feature_area_1 {
+	/* for debug */
+	/* background-color: gray; */
+	margin: 50px auto 50px;
+}
+
+.Feature_area_1_row {
+	/* for debug */
+	/* background-color: pink; */
+}
+
+.Feature_area_1_col {
+	/* for debug */
+	/* background-color: white; */
+}
+
+.Feature_area_1_number_icon {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	color: white;
+	text-align: center;
+	border-radius: 50%;
+	background-color: #17a2b8;
+}
+
+/**********************/
+/*** Feature_area_2 ***/
+/**********************/
+.Feature_area_2 {
+	/* for debug */
+	/* background-color: gray; */
+	margin: 0 auto 0;
+	display:flex;
+	justify-content: space-between;
+
+}
+
+.btn_host_chk {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+	border-style: solid;
+	border-width: 2px;
+	background-color: white;
+}
+
+.Feature_area_2_comment_area {
+	/* for debug */
+	/* background-color: pink; */
+}
+
+.Feature_area_2_comment_1 {
+	position: relative;
+}
+
+.Feature_area_2_adj_posi {
+	position: relative;
+	top:-60px;
+}
+
+/**********************/
+/*** Feature_area_3 ***/
+/**********************/
+.Feature_area_3 {
+	/* for debug */
+	/* background-color: gray; */
+	margin: 50px auto 50px;
+}
+
+.Feature_area_3_row {
+	/* for debug */
+	/* background-color: pink; */
+}
+
+.Feature_area_3_col {
+	/* for debug */
+	/* background-color: white; */
+}
+
+/**********************/
+/*** Feature_area_4 ***/
+/**********************/
+.Feature_area_4 {
+	/* for debug */
+	/* background-color: gray; */
+	margin: 0 auto 50px;
+}
+
+.Feature_area_4_row {
+	/* for debug */
+	/* background-color: pink; */
+}
+
+.Feature_area_4_col {
+	/* for debug */
+	/* background-color: white; */
+}
+
+/**********************/
+/*** Feature_area_5 ***/
+/**********************/
+.Feature_area_5 {
+	/* for debug */
+	/* background-color: gray; */
+	margin: 0 auto 0;
+	display:flex;
+	justify-content: space-between;
+}
+
+.Feature_area_5_comment_area {
+	/* for debug */
+	/* background-color: pink; */
+}
+
+.Feature_area_5_comment_1 {
+	position: relative;
+}
+
+.Feature_area_5_adj_posi {
+	position: relative;
+	top:-60px;
+}
+
+/**********************/
+/*** Feature_area_6 ***/
+/**********************/
+.Feature_area_6 {
+	/* for debug */
+	/* background-color: gray; */
+	margin: 0px auto 70px;
+}
+
+.Feature_area_6_row {
+	/* for debug */
+	/* background-color: pink; */
+}
+
+.Feature_area_6_col {
+	/* for debug */
+	/* background-color: white; */
+}
+
+
+/**********************/
+/*** Feature_area_7 ***/
+/**********************/
+.Feature_area_7 {
+	/* for debug */
+	/* background-color: pink; */
+	margin: 0px auto 50px;
+}
+
+.Feature_area_text_head {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.Feature_area_7_text_hear_0 {
+	margin-bottom: 40px;
+
+}
+
+.Feature_area_7_text_head_1 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/**********************/
+/*** Feature_area_8 ***/
+/**********************/
+.Feature_area_8 {
+	/* for debug */
+	/* background-color: pink; */
+	margin: 0px auto 50px;
+}
+
+.Feature_area_8_text_hear_0 {
+	margin-bottom: 50px;
+}
+
+.Feature_area_8_text_area_qa {
+	/* for debug */
+	/* background-color: pink; */
+	height: 50px;
+	border-bottom: 1px solid rgba(0,0,0,.1)
+}
+
+/**********************/
+/*** Feature_area_9 ***/
+/**********************/
+.Feature_area_9 {
+	/* for debug */
+	/* background-color: pink; */
+	margin: 70px auto 50px;
+}
+
+/**********************/
+/*** Feature_area_10 **/
+/**********************/
+.Feature_area_10 {
+	/* for debug */
+	/* background-color: pink; */
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+
+}
+
+
+.Feature_area_10_div_1_1 {
+	width: 1280px;
+	height: 500px;
+	position: relative;
+	left:50%;
+	margin-left: -640px;
+	z-index: 10;
+}
+
+.Feature_area_10_div_2_1 {
+	position: absolute;
+	top:200px;
+	left:200px;
+	z-index: 20;
+}
+
+.Feature_area_10_btn {
+	width: 200px;
+	height: 50px;
+	background-color: white;
+	line-height: 50px;
+	text-align: center;
+}
+
+/***********/
+/*** TEST_CODE ***/
+/***********/
+
+/* .test_div {
+	width: 800px;
+	height: 900px;
+	background-color: pink;
+} */
+
+/* .test_img {
+	width: 100%; */
+	/* width: 400px; */
+	/* height: 300px; */
+	/* height: 50%; */
+
+/* } */
+
+/***********/
+/*** END ***/
+/***********/

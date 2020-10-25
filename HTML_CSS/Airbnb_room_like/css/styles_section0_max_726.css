@@ -1,0 +1,60 @@
+.room_img {
+  height: 220px;
+}
+
+.logo_menu {
+  width: 100%;
+}
+
+.logo_menu_disp {
+	height: 100%;
+	background: none;
+}
+
+.logo_menu_list {
+  font-size: 16px;
+}
+
+.custom_calc_from {
+  width:  calc(100% - 40px);
+  height: 350px;
+  margin: 0 auto 0;
+}
+
+.custom_text_0 {
+  position: absolute;
+  top:140px;
+  left:20px;
+  font-size: 30px;
+}
+
+.custom_text_1 {
+  display: none;
+}
+
+.custom_location_input {
+  height: 40px;
+  border-style: ridge;
+  width: 93%;
+}
+
+.custom_use_input {
+  height: 40px;
+  width: 93%;
+  border-style: ridge;
+  margin-left: 16px;
+}
+
+.custom_number_input {
+  width: 93%;
+  margin-left: 16px;
+}
+
+.custom_select_area {
+  width: 100%;
+}
+
+.custom_start_btn {
+  width: 93%;
+  margin-left: 15px;
+}
