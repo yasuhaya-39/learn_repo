@@ -1,0 +1,53 @@
+table {
+	font-size: 14px;
+}
+
+.table_center {
+	text-align: center;
+}
+
+.table_win {
+	background-color: #9aff9c;
+}
+
+.table_lose {
+	background-color: #ffafad;
+}
+
+.table_nc {
+	background-color: #b7b7b7;
+}
+
+.table_error {
+	background-color: #ff0000;
+}
+
+.finish_info {
+	padding: 10px 0px 10px 0;
+}
+
+.finish_info > .finish_info_div{
+	margin-top: 5px;
+  margin-bottom: 5px;
+	margin-left: 2px;
+	border:2px solid gray;
+	width:204px;
+	height: 24px;
+	background-color: #b7b7b7;
+	position: relative;
+
+}
+
+.absolute {
+    position: absolute;
+    left: 1px;
+    top: 1px;
+}
+
+
+.fig_cont { display: flex;}
+
+.fig_into_item_2 {margin: 0px 0px 0px 20px;}
+
+
+.class_area {display: flex;}

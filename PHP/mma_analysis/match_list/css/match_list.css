@@ -1,0 +1,19 @@
+table {
+	font-size: 14px;
+}
+
+.table_center {
+	text-align: center;
+}
+
+.table_win {
+	background-color: #9aff9c;
+}
+
+.table_lose {
+	background-color: #ffafad;
+}
+
+.table_nc {
+	background-color: #b7b7b7;
+}
